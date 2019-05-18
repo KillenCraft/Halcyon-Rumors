@@ -7,7 +7,7 @@ This Minecraft resourcepack is a rebirth of the [Halcyon Days][original] resourc
 ## Authors
 
 - **ikezou** - _Initial work_ - vanilla pack supporting Minecraft through v1.8
-- **ScottKillen** - **current work** - vanilla pack supporting Minecraft beyond 1.8; Mod support;
+- **ScottKillen** - _current work_ - vanilla pack supporting Minecraft beyond 1.8 &amp; Mod support
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
