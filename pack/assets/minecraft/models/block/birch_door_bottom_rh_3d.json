@@ -1,0 +1,21 @@
+{
+"__comment": "Designed by Ikezou with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/door_birch_lower",
+    "side": "blocks/door_birch_side",
+    "front": "blocks/door_birch_lower"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 3, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#side" },
+        "north": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#side", "cullface": "north" },
+        "south": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#side", "cullface": "south" },
+        "west":  { "uv": [ 16, 0, 0, 16 ], "texture": "#front" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#front" }
+    }
+}
+]
+}

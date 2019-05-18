@@ -1,0 +1,8 @@
+{
+    "parent": "block/glass_pane_3d_nsew",
+    "textures": {
+        "particle": "blocks/glass_orange",
+        "texture": "blocks/glass_orange",
+        "top": "blocks/glass_pane_top_orange"
+    }
+}

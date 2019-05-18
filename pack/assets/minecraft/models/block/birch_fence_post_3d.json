@@ -1,0 +1,21 @@
+{
+"__comment": "Designed by Ikezou with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/fence_birch_0",
+    "top": "blocks/fence_birch_top"
+},
+"elements": [ 
+{
+    "from": [ 6.5, 0, 6.5 ],
+    "to": [ 9.5, 16, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 9.5, 9.5, 6.5, 6.5 ], "texture": "#top" },
+        "up":    { "uv": [ 6.5, 6.5, 9.5, 9.5 ], "texture": "#top" },
+        "north": { "uv": [ 4, 0, 7, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 12, 0, 15, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 4, 0, 7, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 12, 0, 15, 16 ], "texture": "#particle" }
+    }
+}
+]
+}

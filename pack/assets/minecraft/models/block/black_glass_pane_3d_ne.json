@@ -1,0 +1,8 @@
+{
+    "parent": "block/glass_pane_3d_ne",
+    "textures": {
+        "particle": "blocks/glass_black",
+        "texture": "blocks/glass_black",
+        "top": "blocks/glass_pane_top_black"
+    }
+}

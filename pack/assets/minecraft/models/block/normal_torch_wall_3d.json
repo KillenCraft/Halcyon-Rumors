@@ -1,0 +1,100 @@
+{
+"__comment": "Designed by Ikezou with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/torch_on",
+    "torch": "blocks/torch_on",
+    "stand": "blocks/toach_stand"
+},
+"elements": [ 
+{
+    "from": [ 3, 2, 6.5 ],
+    "to": [ 6, 3, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 13, 13.5, 10, 10.5 ], "rotation": 270, "texture": "#stand" },
+        "up":    { "uv": [ 10, 10.5, 13, 13.5 ], "rotation": 90, "texture": "#stand" },
+        "north": { "uv": [ 6.5, 15, 9.5, 16 ], "texture": "#torch" },
+        "south": { "uv": [ 6.5, 15, 9.5, 16 ], "texture": "#torch" },
+        "west":  { "uv": [ 6.5, 15, 9.5, 16 ], "texture": "#torch" },
+        "east":  { "uv": [ 6.5, 15, 9.5, 16 ], "texture": "#torch" }
+    }
+},
+{
+    "from": [ 3.5, 3, 7 ],
+    "to": [ 5.5, 8.5, 9 ],
+    "shade": false,
+    "faces": {
+        "up":    { "uv": [ 7, 10.5, 9, 12.5 ], "rotation": 90, "texture": "#torch" },
+        "north": { "uv": [ 7, 9.5, 9, 15 ], "texture": "#torch" },
+        "south": { "uv": [ 7, 9.5, 9, 15 ], "texture": "#torch" },
+        "west":  { "uv": [ 7, 9.5, 9, 15 ], "texture": "#torch" },
+        "east":  { "uv": [ 7, 9.5, 9, 15 ], "texture": "#torch" }
+    }
+},
+{
+    "from": [ 3.5, 8.5, 5 ],
+    "to": [ 3.5625, 15, 11 ],
+    "shade": false,
+    "faces": {
+        "west":  { "uv": [ 5, 3, 11, 9.5 ], "texture": "#torch" }
+    }
+},
+{
+    "from": [ 0, 2.5, 5.5 ],
+    "to": [ 1.5, 11.5, 10.5 ],
+    "faces": {
+        "down":  { "uv": [ 14, 10.5, 9, 9 ], "rotation": 270, "texture": "#stand" },
+        "up":    { "uv": [ 9, 6.5, 14, 8 ], "rotation": 90, "texture": "#stand" },
+        "north": { "uv": [ 1.5, 4.5, 3, 13.5 ], "texture": "#stand" },
+        "south": { "uv": [ 1.5, 4.5, 3, 13.5 ], "texture": "#stand", "cullface": "south" },
+        "west":  { "uv": [ 9, 4.5, 14, 13.5 ], "texture": "#stand" },
+        "east":  { "uv": [ 9, 4.5, 14, 13.5 ], "texture": "#stand" }
+    }
+},
+{
+    "from": [ 1.5, 6.5, 6.5 ],
+    "to": [ 6, 7.5, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 13, 10.5, 10, 6 ], "rotation": 270, "texture": "#stand" },
+        "up":    { "uv": [ 10, 6, 13, 10.5 ], "rotation": 90, "texture": "#stand" },
+        "north": { "uv": [ 3, 8, 7.5, 9 ], "texture": "#stand" },
+        "south": { "uv": [ 3, 8, 7.5, 9 ], "texture": "#stand" },
+        "east":  { "uv": [ 3.5, 11.5, 6.5, 12.5 ], "texture": "#stand" }
+    }
+},
+{
+    "from": [ 1.5, 3.5, 6.5 ],
+    "to": [ 6, 4.5, 9.5 ],
+    "faces": {
+        "down":  { "uv": [ 13, 10.5, 10, 6 ], "rotation": 270, "texture": "#stand" },
+        "up":    { "uv": [ 10, 6, 13, 10.5 ], "rotation": 90, "texture": "#stand" },
+        "north": { "uv": [ 3, 11.5, 7.5, 12.5 ], "texture": "#stand" },
+        "south": { "uv": [ 3, 11.5, 7.5, 12.5 ], "texture": "#stand" },
+        "east":  { "uv": [ 3.5, 8, 6.5, 9 ], "texture": "#stand" }
+    }
+},
+{
+    "from": [ 1.5, 8.5, 9 ],
+    "to": [ 7.5, 15, 9.0625 ],
+    "shade": false,
+    "faces": {
+        "south": { "uv": [ 5, 3, 11, 9.5 ], "texture": "#torch" }
+    }
+},
+{
+    "from": [ 1.5, 8.5, 7 ],
+    "to": [ 7.5, 15, 7.0625 ],
+    "shade": false,
+    "faces": {
+        "north": { "uv": [ 5, 3, 11, 9.5 ], "texture": "#torch" }
+    }
+},
+{
+    "from": [ 5.5, 8.5, 5 ],
+    "to": [ 5.5625, 15, 11 ],
+    "shade": false,
+    "faces": {
+        "east":  { "uv": [ 5, 3, 11, 9.5 ], "texture": "#torch" }
+    }
+}
+]
+}

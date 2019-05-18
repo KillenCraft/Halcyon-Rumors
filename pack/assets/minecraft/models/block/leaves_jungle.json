@@ -1,0 +1,8 @@
+{
+    "parent": "block/leaves_3d",
+    "textures": {
+        "particle": "blocks/leaves_jungle",
+        "texture": "blocks/leaves_jungle",
+        "leaves_extra": "blocks/leaves_extra_jungle"
+    }
+}

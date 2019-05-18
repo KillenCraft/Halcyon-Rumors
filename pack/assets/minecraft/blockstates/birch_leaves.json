@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "normal": [
+		{ "model": "leaves_birch" },
+		{ "model": "leaves_birch_2" }
+]
+    }
+}

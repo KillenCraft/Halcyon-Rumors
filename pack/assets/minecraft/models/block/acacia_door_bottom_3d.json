@@ -1,0 +1,79 @@
+{
+"__comment": "Designed by Ikezou with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/door_acacia_lower",
+    "texture": "blocks/door_acacia_lower",
+    "arch": "blocks/door_acacia_arch_l"
+},
+"elements": [ 
+{
+    "__comment": "door4 x32",
+    "from": [ 0, 3, 0 ],
+    "to": [ 1.5, 16, 2.5 ],
+    "faces": {
+        "north": { "uv": [ 14.25, 0, 15.75, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 0.25, 0, 1.75, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 2.5, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 13.5, 0, 16, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "door4 x32",
+    "from": [ 1.5, 14.5, 0 ],
+    "to": [ 2, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 14.5, 0, 14 ], "rotation": 270, "texture": "#texture" },
+        "north": { "uv": [ 14, 0, 14.5, 1.5 ], "texture": "#texture" },
+        "south": { "uv": [ 1.5, 0, 2, 1.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 16, 1.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 4, 16, 5.5 ], "texture": "#arch" }
+    }
+},
+{
+    "__comment": "door4 x32",
+    "from": [ 0, 0, 0 ],
+    "to": [ 2, 3, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 14 ], "rotation": 270, "texture": "#texture" },
+        "up":    { "uv": [ 0, 14, 16, 16 ], "rotation": 90, "texture": "#texture" },
+        "north": { "uv": [ 14, 13, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 13, 2, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 13, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 13, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "door4 x32",
+    "from": [ 0, 3, 4.5 ],
+    "to": [ 1.5, 16, 7 ],
+    "faces": {
+        "north": { "uv": [ 14.25, 0, 15.75, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 0.25, 0, 1.75, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 4.5, 0, 7, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 9, 0, 11.5, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "door4 x32",
+    "from": [ 0, 3, 9 ],
+    "to": [ 1.5, 16, 11.5 ],
+    "faces": {
+        "north": { "uv": [ 14.25, 0, 15.75, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 0.25, 0, 1.75, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 9, 0, 11.5, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 4.5, 0, 7, 13 ], "texture": "#texture" }
+    }
+},
+{
+    "__comment": "door4 x32",
+    "from": [ 0, 3, 13.5 ],
+    "to": [ 1.5, 16, 16 ],
+    "faces": {
+        "north": { "uv": [ 14.25, 0, 15.75, 13 ], "texture": "#texture" },
+        "south": { "uv": [ 0.25, 0, 1.75, 13 ], "texture": "#texture" },
+        "west":  { "uv": [ 13.5, 0, 16, 13 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 2.5, 13 ], "texture": "#texture" }
+    }
+}
+]
+}

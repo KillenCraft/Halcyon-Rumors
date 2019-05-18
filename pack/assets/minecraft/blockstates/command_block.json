@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "conditional=false,facing=down":  { "model": "command_block_3d", "x": 90 },
+        "conditional=false,facing=up":    { "model": "command_block_3d", "x": 270 },
+        "conditional=false,facing=north": { "model": "command_block_3d" },
+        "conditional=false,facing=south": { "model": "command_block_3d", "y": 180 },
+        "conditional=false,facing=west":  { "model": "command_block_3d", "y": 270 },
+        "conditional=false,facing=east":  { "model": "command_block_3d", "y": 90 },
+        "conditional=true,facing=down":  { "model": "command_block_conditional_3d", "x": 90 },
+        "conditional=true,facing=up":    { "model": "command_block_conditional_3d", "x": 270 },
+        "conditional=true,facing=north": { "model": "command_block_conditional_3d" },
+        "conditional=true,facing=south": { "model": "command_block_conditional_3d", "y": 180 },
+        "conditional=true,facing=west":  { "model": "command_block_conditional_3d", "y": 270 },
+        "conditional=true,facing=east":  { "model": "command_block_conditional_3d", "y": 90 }
+    }
+}

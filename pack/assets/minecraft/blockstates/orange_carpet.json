@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+					{ "model": "chair_wood" },
+					{ "model": "chair_wood", "y": 90 },
+					{ "model": "chair_wood", "y": 180 },
+					{ "model": "chair_wood", "y": 270 }
+]
+    }
+}

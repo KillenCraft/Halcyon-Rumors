@@ -1,0 +1,44 @@
+{
+"__comment": "Designed by Ikezou with BDcraft Cubik PRO 0.85 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/dark_oak_fence_00",
+    "texture_0": "blocks/dark_oak_fence_00",
+    "texture_1": "blocks/dark_oak_fence_01"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 5 ],
+    "to": [ 4, 16, 11 ],
+    "faces": {
+        "down":  { "uv": [ 16, 11, 12, 5 ], "texture": "#texture_1" },
+        "up":    { "uv": [ 0, 5, 4, 11 ], "texture": "#texture_1" },
+        "north": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture_0" },
+        "south": { "uv": [ 0, 0, 4, 16 ], "texture": "#texture_0" },
+        "west":  { "uv": [ 5, 0, 11, 16 ], "texture": "#texture_0" },
+        "east":  { "uv": [ 5, 0, 11, 16 ], "texture": "#texture_0" }
+    }
+},
+{
+    "from": [ 4, 12, 5 ],
+    "to": [ 16, 16, 11 ],
+    "faces": {
+        "down":  { "uv": [ 12, 11, 0, 5 ], "texture": "#texture_1" },
+        "up":    { "uv": [ 4, 5, 16, 11 ], "texture": "#texture_1" },
+        "north": { "uv": [ 0, 0, 12, 4 ], "texture": "#texture_1" },
+        "south": { "uv": [ 4, 0, 16, 4 ], "texture": "#texture_1" },
+        "east":  { "uv": [ 5, 0, 11, 4 ], "texture": "#texture_0" }
+    }
+},
+{
+    "from": [ 1.5, -1, 6.1875 ],
+    "to": [ 18.5, 2.5, 10.1875 ],
+    "rotation": { "origin": [ 1.5, 2.5, 6.1875 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "down":  { "uv": [ 0, 6, 16, 10 ], "texture": "#texture_1" },
+        "up":    { "uv": [ 0, 6, 16, 10 ], "texture": "#texture_1" },
+        "north": { "uv": [ 0, 12.5, 16, 16 ], "texture": "#texture_1" },
+        "south": { "uv": [ 0, 12.5, 16, 16 ], "texture": "#texture_1" }
+    }
+}
+]
+}

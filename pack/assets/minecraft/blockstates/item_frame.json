@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "item_frame_3d" },
+        "map":    { "model": "item_frame_map_3d" }
+    }
+}

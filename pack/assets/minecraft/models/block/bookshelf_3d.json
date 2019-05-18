@@ -1,0 +1,96 @@
+{
+"__comment": "Designed by Ikezou with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/bookshelf",
+    "texture": "blocks/bookshelf",
+    "top": "blocks/crafting_table_top"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 1.5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#top", "cullface": "down" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top" },
+        "north": { "uv": [ 0, 14.5, 16, 16 ], "texture": "#texture", "cullface": "north" },
+        "south": { "uv": [ 0, 14.5, 16, 16 ], "texture": "#texture", "cullface": "south" },
+        "west":  { "uv": [ 0, 14.5, 16, 16 ], "texture": "#texture", "cullface": "west" },
+        "east":  { "uv": [ 0, 14.5, 16, 16 ], "texture": "#texture", "cullface": "east" }
+    }
+},
+{
+    "from": [ 0, 14.5, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#top" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "up" },
+        "north": { "uv": [ 0, 0, 16, 1.5 ], "texture": "#texture", "cullface": "north" },
+        "south": { "uv": [ 0, 0, 16, 1.5 ], "texture": "#texture", "cullface": "south" },
+        "west":  { "uv": [ 0, 0, 16, 1.5 ], "texture": "#texture", "cullface": "west" },
+        "east":  { "uv": [ 0, 0, 16, 1.5 ], "texture": "#texture", "cullface": "east" }
+    }
+},
+{
+    "from": [ 0.5, 7, 0.5 ],
+    "to": [ 15.5, 9, 15.5 ],
+    "faces": {
+        "down":  { "uv": [ 15.5, 15.5, 0.5, 0.5 ], "texture": "#top" },
+        "up":    { "uv": [ 0.5, 0.5, 15.5, 15.5 ], "texture": "#top" },
+        "north": { "uv": [ 0.5, 7, 15.5, 9 ], "texture": "#texture" },
+        "south": { "uv": [ 0.5, 7, 15.5, 9 ], "texture": "#texture" },
+        "west":  { "uv": [ 0.5, 7, 15.5, 9 ], "texture": "#texture" },
+        "east":  { "uv": [ 0.5, 7, 15.5, 9 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 1.5, 0 ],
+    "to": [ 1, 14.5, 1 ],
+    "faces": {
+        "north": { "uv": [ 15, 1.5, 16, 14.5 ], "texture": "#texture", "cullface": "north" },
+        "south": { "uv": [ 0, 1.5, 1, 14.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 1.5, 1, 14.5 ], "texture": "#texture", "cullface": "west" },
+        "east":  { "uv": [ 15, 1.5, 16, 14.5 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 1, 1.5, 1 ],
+    "to": [ 15, 14.5, 15 ],
+    "faces": {
+        "north": { "uv": [ 1, 1.5, 15, 14.5 ], "texture": "#texture" },
+        "south": { "uv": [ 1, 1.5, 15, 14.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 1, 1.5, 15, 14.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 1, 1.5, 15, 14.5 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 1.5, 15 ],
+    "to": [ 1, 14.5, 16 ],
+    "faces": {
+        "north": { "uv": [ 15, 1.5, 16, 14.5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 1.5, 1, 14.5 ], "texture": "#texture", "cullface": "south" },
+        "west":  { "uv": [ 15, 1.5, 16, 14.5 ], "texture": "#texture", "cullface": "west" },
+        "east":  { "uv": [ 0, 1.5, 1, 14.5 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 15, 1.5, 15 ],
+    "to": [ 16, 14.5, 16 ],
+    "faces": {
+        "north": { "uv": [ 0, 1.5, 1, 14.5 ], "texture": "#texture" },
+        "south": { "uv": [ 15, 1.5, 16, 14.5 ], "texture": "#texture", "cullface": "south" },
+        "west":  { "uv": [ 15, 1.5, 16, 14.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 1.5, 1, 14.5 ], "texture": "#texture", "cullface": "east" }
+    }
+},
+{
+    "from": [ 15, 1.5, 0 ],
+    "to": [ 16, 14.5, 1 ],
+    "faces": {
+        "north": { "uv": [ 0, 1.5, 1, 14.5 ], "texture": "#texture", "cullface": "north" },
+        "south": { "uv": [ 15, 1.5, 16, 14.5 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 1.5, 1, 14.5 ], "texture": "#texture" },
+        "east":  { "uv": [ 15, 1.5, 16, 14.5 ], "texture": "#texture", "cullface": "east" }
+    }
+}
+]
+}

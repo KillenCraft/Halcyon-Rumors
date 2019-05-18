@@ -1,0 +1,41 @@
+{
+"__comment": "Designed by Ikezou with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/fence_jungle_0",
+    "texture": "blocks/fence_jungle_1"
+},
+"elements": [ 
+{
+    "from": [ 6, 0, 6 ],
+    "to": [ 10, 16, 10 ],
+    "faces": {
+        "north": { "uv": [ 6, 0, 10, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 0, 10, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 0, 10, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "from": [ 6.01, 16, 6.01 ],
+    "to": [ 9.99, 19, 9.99 ],
+    "faces": {
+        "up":    { "uv": [ 6, 6, 10, 10 ], "texture": "#particle" },
+        "north": { "uv": [ 6, 13, 10, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 13, 10, 16 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 13, 10, 16 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 13, 10, 16 ], "texture": "#particle" }
+    }
+},
+{
+    "from": [ 6.01, -1, 6.01 ],
+    "to": [ 9.99, 0, 9.99 ],
+    "faces": {
+        "down":  { "uv": [ 6, 6, 10, 10 ], "texture": "#particle" },
+        "north": { "uv": [ 6, 0, 10, 1 ], "texture": "#particle" },
+        "south": { "uv": [ 6, 0, 10, 1 ], "texture": "#particle" },
+        "west":  { "uv": [ 6, 0, 10, 1 ], "texture": "#particle" },
+        "east":  { "uv": [ 6, 0, 10, 1 ], "texture": "#particle" }
+    }
+}
+]
+}

@@ -1,0 +1,65 @@
+{
+    "variants": {
+        "east=false,north=false,south=false,west=false": [
+						{ "model": "tub_3d" },
+						{ "model": "tub_3d", "y": 90 },
+						{ "model": "tub_3d", "y": 180 },
+						{ "model": "tub_3d", "y": 270 },
+						{ "model": "pail_3d" },
+						{ "model": "pail_3d", "y": 90 },
+						{ "model": "pail_3d", "y": 180 },
+						{ "model": "pail_3d", "y": 270 }
+],
+        "east=false,north=true,south=false,west=false": [
+						{ "model": "tub_3d" },
+						{ "model": "tub_3d", "y": 90 },
+						{ "model": "tub_3d", "y": 180 },
+						{ "model": "tub_3d", "y": 270 },
+						{ "model": "pail_3d" },
+						{ "model": "pail_3d", "y": 90 },
+						{ "model": "pail_3d", "y": 180 },
+						{ "model": "pail_3d", "y": 270 }
+],
+        "east=true,north=false,south=false,west=false": [
+						{ "model": "tub_3d" },
+						{ "model": "tub_3d", "y": 90 },
+						{ "model": "tub_3d", "y": 180 },
+						{ "model": "tub_3d", "y": 270 },
+						{ "model": "pail_3d" },
+						{ "model": "pail_3d", "y": 90 },
+						{ "model": "pail_3d", "y": 180 },
+						{ "model": "pail_3d", "y": 270 }
+],
+        "east=false,north=false,south=true,west=false": [
+						{ "model": "tub_3d" },
+						{ "model": "tub_3d", "y": 90 },
+						{ "model": "tub_3d", "y": 180 },
+						{ "model": "tub_3d", "y": 270 },
+						{ "model": "pail_3d" },
+						{ "model": "pail_3d", "y": 90 },
+						{ "model": "pail_3d", "y": 180 },
+						{ "model": "pail_3d", "y": 270 }
+],
+        "east=false,north=false,south=false,west=true": [
+						{ "model": "tub_3d" },
+						{ "model": "tub_3d", "y": 90 },
+						{ "model": "tub_3d", "y": 180 },
+						{ "model": "tub_3d", "y": 270 },
+						{ "model": "pail_3d" },
+						{ "model": "pail_3d", "y": 90 },
+						{ "model": "pail_3d", "y": 180 },
+						{ "model": "pail_3d", "y": 270 }
+],
+        "east=true,north=true,south=false,west=false": { "model": "cyan_glass_pane_3d_ne" },
+        "east=true,north=false,south=true,west=false": { "model": "cyan_glass_pane_3d_ne", "y": 90 },
+        "east=false,north=false,south=true,west=true": { "model": "cyan_glass_pane_3d_ne", "y": 180 },
+        "east=false,north=true,south=false,west=true": { "model": "cyan_glass_pane_3d_ne", "y": 270 },
+        "east=false,north=true,south=true,west=false": { "model": "cyan_glass_pane_3d_ns" },
+        "east=true,north=false,south=false,west=true": { "model": "cyan_glass_pane_3d_ns", "y": 90 },
+        "east=true,north=true,south=true,west=false": { "model": "cyan_glass_pane_3d_nse" },
+        "east=true,north=false,south=true,west=true": { "model": "cyan_glass_pane_3d_nse", "y": 90 },
+        "east=false,north=true,south=true,west=true": { "model": "cyan_glass_pane_3d_nse", "y": 180 },
+        "east=true,north=true,south=false,west=true": { "model": "cyan_glass_pane_3d_nse", "y": 270 },
+        "east=true,north=true,south=true,west=true": { "model": "cyan_glass_pane_3d_nsew" }
+    }
+}

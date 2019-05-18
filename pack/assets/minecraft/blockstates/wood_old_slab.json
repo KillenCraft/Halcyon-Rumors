@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": 	{ "model": "basket" },
+        "half=top": { "model": "table" }
+    }
+}

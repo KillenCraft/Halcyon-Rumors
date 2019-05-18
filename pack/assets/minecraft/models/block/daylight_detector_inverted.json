@@ -1,0 +1,62 @@
+{
+"__comment": "Designed by Ikezou with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/daylight_detector_inverted_top",
+    "texture": "blocks/daylight_detector_side",
+    "bottom": "blocks/daylight_detector_bottom"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 16, 5, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#bottom" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#particle" },
+        "north": { "uv": [ 0, 11, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 11, 16, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 11, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 11, 16, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 5, 0 ],
+    "to": [ 3, 6, 13 ],
+    "faces": {
+        "up":    { "uv": [ 0, 0, 3, 13 ], "texture": "#particle" },
+        "north": { "uv": [ 13, 10, 16, 11 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 10, 13, 11 ], "texture": "#texture" },
+        "east":  { "uv": [ 3, 10, 16, 11 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 13, 5, 3 ],
+    "to": [ 16, 6, 16 ],
+    "faces": {
+        "up":    { "uv": [ 13, 3, 16, 16 ], "texture": "#particle" },
+        "south": { "uv": [ 13, 10, 16, 11 ], "texture": "#texture" },
+        "west":  { "uv": [ 3, 10, 16, 11 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 10, 13, 11 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 3, 5, 0 ],
+    "to": [ 16, 6, 3 ],
+    "faces": {
+        "up":    { "uv": [ 3, 0, 16, 3 ], "texture": "#particle" },
+        "north": { "uv": [ 0, 10, 13, 11 ], "texture": "#texture" },
+        "south": { "uv": [ 3, 10, 16, 11 ], "texture": "#texture" },
+        "east":  { "uv": [ 13, 10, 16, 11 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 0, 5, 13 ],
+    "to": [ 13, 6, 16 ],
+    "faces": {
+        "up":    { "uv": [ 0, 13, 13, 16 ], "texture": "#particle" },
+        "north": { "uv": [ 3, 10, 16, 11 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 10, 13, 11 ], "texture": "#texture" },
+        "west":  { "uv": [ 13, 10, 16, 11 ], "texture": "#texture" }
+    }
+}
+]
+}

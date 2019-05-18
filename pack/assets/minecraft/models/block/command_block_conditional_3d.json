@@ -1,0 +1,9 @@
+{
+    "parent": "block/command_block_3d",
+"textures": {
+    "particle": "blocks/command_block",
+    "front": "blocks/command_block_front",
+    "side": "blocks/command_block_conditional",
+    "back": "blocks/command_block_back"
+    }
+}
