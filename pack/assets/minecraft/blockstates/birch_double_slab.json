@@ -1,21 +1,59 @@
-
 {
-    "variants": {
-        "normal": [
-	{ "model": "box_close_01", "weight"=25 },
-	{ "model": "box_close_01", "weight"=25, "y":90 },
-	{ "model": "box_close_02" },
-	{ "model": "box_close_02", "y": 90 },
-	{ "model": "box_close_02", "y": 180 },
-	{ "model": "box_close_02", "y": 270 },
-	{ "model": "box_close_03" },
-	{ "model": "box_close_03", "y": 90 },
-	{ "model": "box_close_03", "y": 180 },
-	{ "model": "box_close_03", "y": 270 },
-	{ "model": "box_close_04" },
-	{ "model": "box_close_04", "y": 90 },
-	{ "model": "box_close_04", "y": 180 },
-	{ "model": "box_close_04", "y": 270 }
-      ]
-    }
+	"variants": {
+		"normal": [{
+				"model": "box_close_01",
+				"weight": 25
+			},
+			{
+				"model": "box_close_01",
+				"weight": 25,
+				"y": 90
+			},
+			{
+				"model": "box_close_02"
+			},
+			{
+				"model": "box_close_02",
+				"y": 90
+			},
+			{
+				"model": "box_close_02",
+				"y": 180
+			},
+			{
+				"model": "box_close_02",
+				"y": 270
+			},
+			{
+				"model": "box_close_03"
+			},
+			{
+				"model": "box_close_03",
+				"y": 90
+			},
+			{
+				"model": "box_close_03",
+				"y": 180
+			},
+			{
+				"model": "box_close_03",
+				"y": 270
+			},
+			{
+				"model": "box_close_04"
+			},
+			{
+				"model": "box_close_04",
+				"y": 90
+			},
+			{
+				"model": "box_close_04",
+				"y": 180
+			},
+			{
+				"model": "box_close_04",
+				"y": 270
+			}
+		]
+	}
 }
