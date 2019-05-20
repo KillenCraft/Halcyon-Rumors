@@ -1,19 +1,23 @@
-# Halcyon Days Reborn
+# Halcyon Rumors
 
 <img src="pack/pack.png" align = "right" title="Halcyon Days icon" width="128" height="128">
 
-This Minecraft resourcepack is a rebirth of the [Halcyon Days][original] resourcepack created by [ikezou][ikezou_prof].
+This Minecraft resource pack is a derivative of the [Halcyon Days][original] resourcepack created by [ikezou][ikezou_prof].
+
+## Versioning
+
+This project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/HalcyonRumors/HalcyonRumors/tags). 
 
 ## Authors
 
 - **ikezou** - _Initial work_ - vanilla pack supporting Minecraft through v1.8
 - **ScottKillen** - _current work_ - vanilla pack supporting Minecraft beyond 1.8 &amp; Mod support
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/HalcyonRumors/HalcyonRumors/graphs/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC By-NC-SA 4.0)][cc] - see the [LICENSE.md](LICENSE.md) file for details.
+Per ikezou's original license, this project is also licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC By-NC-SA 4.0)][cc] - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
